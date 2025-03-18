@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{88652E13-045F-4C1A-9C05-BB5E9BB9D44C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{A33891FE-0232-404D-9F88-6DFB16F856CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,11 +31,24 @@ Global
 		{88652E13-045F-4C1A-9C05-BB5E9BB9D44C}.Release|x64.Build.0 = Release|Any CPU
 		{88652E13-045F-4C1A-9C05-BB5E9BB9D44C}.Release|x86.ActiveCfg = Release|Any CPU
 		{88652E13-045F-4C1A-9C05-BB5E9BB9D44C}.Release|x86.Build.0 = Release|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Debug|x64.Build.0 = Debug|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Debug|x86.Build.0 = Debug|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Release|x64.ActiveCfg = Release|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Release|x64.Build.0 = Release|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Release|x86.ActiveCfg = Release|Any CPU
+		{A33891FE-0232-404D-9F88-6DFB16F856CC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{88652E13-045F-4C1A-9C05-BB5E9BB9D44C} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{A33891FE-0232-404D-9F88-6DFB16F856CC} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
